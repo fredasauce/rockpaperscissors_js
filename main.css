@@ -4,10 +4,16 @@
 
 #choices {
   display: flex;
+  justify-content: space-around;
+  height: 500px;
+  width: 500px;
 }
 
 .choice {
-  border: 1px solid green;
-  height: 200px;
-  width: 200px;
+  flex: 33.33%;
+  padding: 5px;
 }
+
+/* img {
+  border-radius: %;
+} */
